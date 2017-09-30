@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C229AC9F-5170-46F8-9EB3-17E6D373965D}</ProjectGuid>
+    <ProjectGuid>{CC46312F-BDEC-4D2E-A052-F980B37724F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_02.Add_Two_Numbers</RootNamespace>
-    <AssemblyName>_02.Add_Two_Numbers</AssemblyName>
+    <RootNamespace>_01.Greeting</RootNamespace>
+    <AssemblyName>_01.Greeting</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
