@@ -7,7 +7,7 @@
     <ProjectGuid>{6AB752F2-B522-4B2F-9FF8-032FB4363FAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_11._5_Different_Numbers</RootNamespace>
-    <AssemblyName>_11._5_Different_Numbers</AssemblyName>
+    <AssemblyName>11. 5 Different Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
