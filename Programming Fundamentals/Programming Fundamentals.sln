@@ -81,6 +81,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Magic Letter", "02. C# 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Neighbour Wars", "02. C# Conditional Statements and Loops\Exercises\15. Neighbour Wars\15. Neighbour Wars.csproj", "{C3300601-26D7-4667-B251-CDCF2F4812C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data Types and Variables - Lab", "03. Data Types and Variables - Lab", "{A7B26C21-5528-4463-BF08-0060E9AF09D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Centuries to Minutes", "03. Data Types and Variables\Lab\01. Centuries to Minutes\01. Centuries to Minutes.csproj", "{28B45D27-E837-40A6-A5E6-726096765F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Circle Area (Precision 12)", "03. Data Types and Variables\Lab\02. Circle Area (Precision 12)\02. Circle Area (Precision 12).csproj", "{17CE18A7-5CD4-4454-BD06-09962FF1B376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Exact Sum of Real Numbers", "03. Data Types and Variables\Lab\03. Exact Sum of Real Numbers\03. Exact Sum of Real Numbers.csproj", "{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +235,18 @@ Global
 		{C3300601-26D7-4667-B251-CDCF2F4812C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3300601-26D7-4667-B251-CDCF2F4812C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3300601-26D7-4667-B251-CDCF2F4812C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B45D27-E837-40A6-A5E6-726096765F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B45D27-E837-40A6-A5E6-726096765F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B45D27-E837-40A6-A5E6-726096765F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B45D27-E837-40A6-A5E6-726096765F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE18A7-5CD4-4454-BD06-09962FF1B376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE18A7-5CD4-4454-BD06-09962FF1B376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE18A7-5CD4-4454-BD06-09962FF1B376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE18A7-5CD4-4454-BD06-09962FF1B376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +287,9 @@ Global
 		{EF960918-21C8-404F-B56D-4A90F9930B2A} = {9E8C46A9-93D0-47E0-806E-202E5F6079AC}
 		{4D113C27-B7FE-44A6-A6D0-38283A439ACB} = {9E8C46A9-93D0-47E0-806E-202E5F6079AC}
 		{C3300601-26D7-4667-B251-CDCF2F4812C5} = {9E8C46A9-93D0-47E0-806E-202E5F6079AC}
+		{28B45D27-E837-40A6-A5E6-726096765F38} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
+		{17CE18A7-5CD4-4454-BD06-09962FF1B376} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
+		{4D8CE577-5D15-4BC2-A512-6A9A8A3E434F} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F96CFDD-AC87-463C-8A86-BB7F86437910}
