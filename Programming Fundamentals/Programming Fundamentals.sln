@@ -103,6 +103,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Refactor Special Number
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data Types and Variables - Exercises", "03. Data Types and Variables - Exercises", "{E5E46999-A56B-4D3A-B631-68C1F5D27D36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Practice Integers", "03. Data Types and Variables\Exercises\01. Practice Integers\01. Practice Integers.csproj", "{E433E1CA-1017-42D4-B160-053E179BF100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Practice Floating Points", "03. Data Types and Variables\Exercises\02. Practice Floating Points\02. Practice Floating Points.csproj", "{F8B3C063-F499-49D8-832F-C79010713A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Practice Chars And Strings", "03. Data Types and Variables\Exercises\03. Practice Chars And Strings\03. Practice Chars And Strings.csproj", "{262C4335-CEA6-457D-ABC9-378C43029AFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Variable in Hex Format", "03. Data Types and Variables\Exercises\04. Variable in Hex Format\04. Variable in Hex Format.csproj", "{F83CFE87-253C-4F5A-B872-1A6A26B44EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Boolean Variable", "03. Data Types and Variables\Exercises\05. Boolean Variable\05. Boolean Variable.csproj", "{E931575F-244D-44F5-9B18-6C992513F02A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +295,26 @@ Global
 		{D028F836-1AB3-40EA-B1BD-94DFC8D87624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D028F836-1AB3-40EA-B1BD-94DFC8D87624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D028F836-1AB3-40EA-B1BD-94DFC8D87624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E433E1CA-1017-42D4-B160-053E179BF100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E433E1CA-1017-42D4-B160-053E179BF100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E433E1CA-1017-42D4-B160-053E179BF100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E433E1CA-1017-42D4-B160-053E179BF100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B3C063-F499-49D8-832F-C79010713A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B3C063-F499-49D8-832F-C79010713A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B3C063-F499-49D8-832F-C79010713A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B3C063-F499-49D8-832F-C79010713A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262C4335-CEA6-457D-ABC9-378C43029AFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262C4335-CEA6-457D-ABC9-378C43029AFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262C4335-CEA6-457D-ABC9-378C43029AFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262C4335-CEA6-457D-ABC9-378C43029AFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83CFE87-253C-4F5A-B872-1A6A26B44EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83CFE87-253C-4F5A-B872-1A6A26B44EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83CFE87-253C-4F5A-B872-1A6A26B44EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83CFE87-253C-4F5A-B872-1A6A26B44EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E931575F-244D-44F5-9B18-6C992513F02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E931575F-244D-44F5-9B18-6C992513F02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E931575F-244D-44F5-9B18-6C992513F02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E931575F-244D-44F5-9B18-6C992513F02A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,6 +364,11 @@ Global
 		{E97B06AD-CC5B-435C-B5D6-59EEA4E30CF8} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
 		{C63048CE-E514-4EA4-AAF0-71FAD31C10B7} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
 		{D028F836-1AB3-40EA-B1BD-94DFC8D87624} = {A7B26C21-5528-4463-BF08-0060E9AF09D0}
+		{E433E1CA-1017-42D4-B160-053E179BF100} = {E5E46999-A56B-4D3A-B631-68C1F5D27D36}
+		{F8B3C063-F499-49D8-832F-C79010713A36} = {E5E46999-A56B-4D3A-B631-68C1F5D27D36}
+		{262C4335-CEA6-457D-ABC9-378C43029AFB} = {E5E46999-A56B-4D3A-B631-68C1F5D27D36}
+		{F83CFE87-253C-4F5A-B872-1A6A26B44EE5} = {E5E46999-A56B-4D3A-B631-68C1F5D27D36}
+		{E931575F-244D-44F5-9B18-6C992513F02A} = {E5E46999-A56B-4D3A-B631-68C1F5D27D36}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F96CFDD-AC87-463C-8A86-BB7F86437910}
