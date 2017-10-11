@@ -25,7 +25,7 @@ namespace _09.Extract_Middle_Elements
                 result[0] = arr[n / 2 - 1];
                 result[1] = arr[n / 2];
             }
-            else if (n % 2 != 0)
+            else
             {
                 result = new int[3];
                 result[0] = arr[n / 2 - 1];
