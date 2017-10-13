@@ -10,7 +10,10 @@ namespace _02.Rotate_and_Sum
     {
         static void Main(string[] args)
         {
-            int[] numArr = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+            int[] numArr = Console.ReadLine()
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
             int[] sum = new int[numArr.Length];
             int rotations = int.Parse(Console.ReadLine());
 

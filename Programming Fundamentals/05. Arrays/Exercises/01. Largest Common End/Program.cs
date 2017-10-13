@@ -10,36 +10,34 @@ namespace _01.Largest_Common_End
     {
         static void Main(string[] args)
         {
-            string[] array1 = Console.ReadLine().Split(' ');
-            string[] array2 = Console.ReadLine().Split(' ');
-            int minLength = Math.Min(array1.Length, array2.Length);
-            int diff = Math.Abs(array1.Length - array2.Length);
-            int leftSeqLen = 0;
+            string[] firstArr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] secondArr = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            for (int i = 0; i < minLength; i++)
+            int leftCount = FindMaxCommonItems(firstArr, secondArr);
+            Array.Reverse(firstArr);
+            secondArr = secondArr.Reverse().ToArray();  //tova e drugiq na4in na reverse-vane na array i e sushtoto kato predhodniq red
+            int rightCount = FindMaxCommonItems(firstArr, secondArr);
+
+            Console.WriteLine($"{Math.Max(leftCount, rightCount)}");
+        }
+
+        static int FindMaxCommonItems(string[] firstArr, string[] secondArr)
+        {
+            int length = Math.Min(firstArr.Length, secondArr.Length);
+            int count = 0;
+
+            for (int i = 0; i < length; i++)
             {
-                if (array1[i] != array2[i])
+                if (firstArr[i] == secondArr[i])
+                {
+                    count++;
+                }
+                else
                 {
                     break;
                 }
-
-                leftSeqLen++;
             }
-
-            array1 = array1.Reverse().ToArray();
-            array2 = array2.Reverse().ToArray();
-            int rightSeqLen = 0;
-            for (int i = 0; i < minLength; i++)
-            {
-                if (array1[i] != array2[i])
-                {
-                    break;
-                }
-
-                rightSeqLen++;
-            }
-
-            Console.WriteLine(Math.Max(leftSeqLen, rightSeqLen));
+            return count;
         }
     }
 }
