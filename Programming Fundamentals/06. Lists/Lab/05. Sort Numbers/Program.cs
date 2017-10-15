@@ -11,7 +11,7 @@ namespace _05.Sort_Numbers
         static void Main(string[] args)
         {
             List<double> numbers = Console.ReadLine()
-                .Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries)
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(double.Parse)
                 .ToList();
             numbers.Sort();
