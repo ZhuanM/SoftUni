@@ -10,7 +10,14 @@ namespace _05.Short_Words_Sorted
     {
         static void Main(string[] args)
         {
+            var words = Console.ReadLine()
+                .ToLower()
+                .Split(new [] {'.', ',', ':', ';', '(', ')', '[', ']', '"', '\'', '\\', '/', '!', '?', ' '}, StringSplitOptions.RemoveEmptyEntries)
+                .ToList();
 
+            var result = words.Where(x => x.Length < 5).OrderBy(x => x).Distinct().ToList();
+
+            Console.WriteLine(string.Join(", ", result));
         }
     }
 }
