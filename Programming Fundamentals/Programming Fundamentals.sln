@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fold and Sum", "07. Dic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Dictionaries, Lambda and LINQ - Exercises", "07. Dictionaries, Lambda and LINQ - Exercises", "{245AF36C-B1A5-4F7B-947B-070C698ECED5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Phonebook", "07. Dictionaries, Lambda and LINQ\Exercises\01. Phonebook\01. Phonebook.csproj", "{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -829,6 +831,10 @@ Global
 		{DB890742-4CE8-46CF-A78F-4638FF40E726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB890742-4CE8-46CF-A78F-4638FF40E726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB890742-4CE8-46CF-A78F-4638FF40E726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -966,6 +972,7 @@ Global
 		{1C066FB5-5A7A-4E05-8569-DA577B828277} = {F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}
 		{E9197D74-93AB-4439-9F13-65F93BDE256E} = {F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}
 		{DB890742-4CE8-46CF-A78F-4638FF40E726} = {F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}
+		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F96CFDD-AC87-463C-8A86-BB7F86437910}
