@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. CSharp Intro and Basic Syntax - Lab", "01. CSharp Intro and Basic Syntax - Lab", "{3DC235F9-0589-45D2-B0AE-3AD205A09928}"
 EndProject
@@ -296,6 +296,22 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Dictionaries, Lambda and LINQ - Exercises", "07. Dictionaries, Lambda and LINQ - Exercises", "{245AF36C-B1A5-4F7B-947B-070C698ECED5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Phonebook", "07. Dictionaries, Lambda and LINQ\Exercises\01. Phonebook\01. Phonebook.csproj", "{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Phonebook Upgrade", "07. Dictionaries, Lambda and LINQ\Exercises\02. Phonebook Upgrade\02. Phonebook Upgrade.csproj", "{EA0467B6-DC1E-428E-B075-E1150D2BEF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{64FA9762-04D2-4F29-A389-5B08DA6BD502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. A Miner Task", "07. Dictionaries, Lambda and LINQ\Exercises\03. A Miner Task\03. A Miner Task.csproj", "{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fix Emails", "07. Dictionaries, Lambda and LINQ\Exercises\04. Fix Emails\04. Fix Emails.csproj", "{9077C97E-E492-4AC8-934A-46B233782C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Hands of Cards", "07. Dictionaries, Lambda and LINQ\Exercises\05. Hands of Cards\05. Hands of Cards.csproj", "{B8F67B55-22F9-4F81-9252-4A47D07741B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. User Logs", "07. Dictionaries, Lambda and LINQ\Exercises\06. User Logs\06. User Logs.csproj", "{C05627B2-5230-4EB2-AA92-6DC86FE751D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Logs Aggregator", "07. Dictionaries, Lambda and LINQ\Exercises\08. Logs Aggregator\08. Logs Aggregator.csproj", "{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Legendary Farming", "07. Dictionaries, Lambda and LINQ\Exercises\09. Legendary Farming\09. Legendary Farming.csproj", "{119BB3A1-17B1-4811-8568-93CB2DAF4DD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -835,6 +851,38 @@ Global
 		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9077C97E-E492-4AC8-934A-46B233782C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9077C97E-E492-4AC8-934A-46B233782C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9077C97E-E492-4AC8-934A-46B233782C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9077C97E-E492-4AC8-934A-46B233782C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F67B55-22F9-4F81-9252-4A47D07741B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F67B55-22F9-4F81-9252-4A47D07741B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F67B55-22F9-4F81-9252-4A47D07741B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F67B55-22F9-4F81-9252-4A47D07741B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05627B2-5230-4EB2-AA92-6DC86FE751D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05627B2-5230-4EB2-AA92-6DC86FE751D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05627B2-5230-4EB2-AA92-6DC86FE751D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05627B2-5230-4EB2-AA92-6DC86FE751D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119BB3A1-17B1-4811-8568-93CB2DAF4DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119BB3A1-17B1-4811-8568-93CB2DAF4DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119BB3A1-17B1-4811-8568-93CB2DAF4DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119BB3A1-17B1-4811-8568-93CB2DAF4DD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -973,6 +1021,13 @@ Global
 		{E9197D74-93AB-4439-9F13-65F93BDE256E} = {F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}
 		{DB890742-4CE8-46CF-A78F-4638FF40E726} = {F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}
 		{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{EA0467B6-DC1E-428E-B075-E1150D2BEF39} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{9077C97E-E492-4AC8-934A-46B233782C3D} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{B8F67B55-22F9-4F81-9252-4A47D07741B5} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{C05627B2-5230-4EB2-AA92-6DC86FE751D4} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{8C7FC2B1-EE55-4F6C-8EDD-A53445F7E35D} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
+		{119BB3A1-17B1-4811-8568-93CB2DAF4DD8} = {245AF36C-B1A5-4F7B-947B-070C698ECED5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F96CFDD-AC87-463C-8A86-BB7F86437910}
