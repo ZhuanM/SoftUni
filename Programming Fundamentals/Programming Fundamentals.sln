@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. CSharp Intro and Basic Syntax - Lab", "01. CSharp Intro and Basic Syntax - Lab", "{3DC235F9-0589-45D2-B0AE-3AD205A09928}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 CSharp Intro and Basic Syntax - Lab", "01.1 CSharp Intro and Basic Syntax - Lab", "{3DC235F9-0589-45D2-B0AE-3AD205A09928}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. CSharp Intro and Basic Syntax - Exercises", "01. CSharp Intro and Basic Syntax - Exercises", "{7EAA4D42-C95C-4A34-B29C-3C50FE02E0DF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2 CSharp Intro and Basic Syntax - Exercises", "01.2 CSharp Intro and Basic Syntax - Exercises", "{7EAA4D42-C95C-4A34-B29C-3C50FE02E0DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Debit Card Number", "01. C# Intro and Basic Syntax\Exercises\01. Debit Card Number\01. Debit Card Number.csproj", "{AE98C82E-A9AA-4A50-BC81-D14EE1466A7C}"
 EndProject
@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Add Two Numbers", "01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Employee Data", "01. C# Intro and Basic Syntax\Lab\03. Employee Data\03. Employee Data.csproj", "{4141F4F0-816A-4D34-AC59-8D45083E4311}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. CSharp Conditional Statements and Loops - Lab", "02. CSharp Conditional Statements and Loops - Lab", "{EBC9AE6F-63C2-4A9E-B50B-1647B2BA8FFD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.1 CSharp Conditional Statements and Loops - Lab", "02.1 CSharp Conditional Statements and Loops - Lab", "{EBC9AE6F-63C2-4A9E-B50B-1647B2BA8FFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Passed", "02. C# Conditional Statements and Loops\Lab\01. Passed\01. Passed.csproj", "{88D65B8D-AEA2-4C8A-8AB7-4408AC676779}"
 EndProject
@@ -49,7 +49,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Odd Number", "02. C# Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Number Checker", "02. C# Conditional Statements and Loops\Lab\12. Number Checker\12. Number Checker.csproj", "{E484C858-FEF3-41C9-B5D4-1AB7469F38A0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. CSharp Conditional Statements and Loops - Exercises", "02. CSharp Conditional Statements and Loops - Exercises", "{9E8C46A9-93D0-47E0-806E-202E5F6079AC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.2 CSharp Conditional Statements and Loops - Exercises", "02.2 CSharp Conditional Statements and Loops - Exercises", "{9E8C46A9-93D0-47E0-806E-202E5F6079AC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Choose a Drink", "02. C# Conditional Statements and Loops\Exercises\01. Choose a Drink\01. Choose a Drink.csproj", "{4A4E871C-8315-40C5-ACD8-2BDA5CD2DF83}"
 EndProject
@@ -81,7 +81,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Magic Letter", "02. C# 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Neighbour Wars", "02. C# Conditional Statements and Loops\Exercises\15. Neighbour Wars\15. Neighbour Wars.csproj", "{C3300601-26D7-4667-B251-CDCF2F4812C5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data Types and Variables - Lab", "03. Data Types and Variables - Lab", "{A7B26C21-5528-4463-BF08-0060E9AF09D0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.1 Data Types and Variables - Lab", "03.1 Data Types and Variables - Lab", "{A7B26C21-5528-4463-BF08-0060E9AF09D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Centuries to Minutes", "03. Data Types and Variables\Lab\01. Centuries to Minutes\01. Centuries to Minutes.csproj", "{28B45D27-E837-40A6-A5E6-726096765F38}"
 EndProject
@@ -101,7 +101,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Refactor Volume of Pyra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Refactor Special Numbers", "03. Data Types and Variables\Lab\09. Refactor Special Numbers\09. Refactor Special Numbers.csproj", "{D028F836-1AB3-40EA-B1BD-94DFC8D87624}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Data Types and Variables - Exercises", "03. Data Types and Variables - Exercises", "{E5E46999-A56B-4D3A-B631-68C1F5D27D36}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.2 Data Types and Variables - Exercises", "03.2 Data Types and Variables - Exercises", "{E5E46999-A56B-4D3A-B631-68C1F5D27D36}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Practice Integers", "03. Data Types and Variables\Exercises\01. Practice Integers\01. Practice Integers.csproj", "{E433E1CA-1017-42D4-B160-053E179BF100}"
 EndProject
@@ -141,7 +141,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Different Integers Size
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Thea The Photographer", "03. Data Types and Variables\Exercises\19. Thea The Photographer\19. Thea The Photographer.csproj", "{4FFAA0D5-0DEB-4668-AB46-66B86685C1E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Methods. Debugging and Troubleshooting Code - Lab", "04. Methods. Debugging and Troubleshooting Code - Lab", "{F4693269-862A-4AF8-867D-C5EFB9CF3FE5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.1 Methods. Debugging and Troubleshooting Code - Lab", "04.1 Methods. Debugging and Troubleshooting Code - Lab", "{F4693269-862A-4AF8-867D-C5EFB9CF3FE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Blank Receipt", "04. Methods. Debugging and Troubleshooting Code\Lab\01. Blank Receipt\01. Blank Receipt.csproj", "{2B8945B3-67C6-416D-84CF-9E3AF8C10728}"
 EndProject
@@ -165,7 +165,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. HolidaysBetweenTwoDates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Price Change Alert", "04. Methods. Debugging and Troubleshooting Code\Lab\11. Price Change Alert\11. Price Change Alert.csproj", "{7AFED1B3-603A-4CF6-B2D7-E288441043CD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Methods. Debugging and Troubleshooting Code - Exercises", "04. Methods. Debugging and Troubleshooting Code - Exercises", "{7EF26E64-608A-4D5F-A68F-9509C50E912F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.2 Methods. Debugging and Troubleshooting Code - Exercises", "04.2 Methods. Debugging and Troubleshooting Code - Exercises", "{7EF26E64-608A-4D5F-A68F-9509C50E912F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hello, Name!", "04. Methods. Debugging and Troubleshooting Code\Exercises\01. Hello, Name!\01. Hello, Name!.csproj", "{F929F88D-E7E0-43F7-8B8D-AC8E7F5806AC}"
 EndProject
@@ -203,7 +203,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.  Be Positive", "04. Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Sequence of Commands", "04. Methods. Debugging and Troubleshooting Code\Exercises\18. Sequence of Commands\18. Sequence of Commands.csproj", "{22C0F921-3559-48BE-8B1C-D36B8FC17673}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Arrays - Lab", "05. Arrays - Lab", "{7FC9C0F5-1B6F-42A2-8871-BF4F5B4715A0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.1 Arrays - Lab", "05.1 Arrays - Lab", "{7FC9C0F5-1B6F-42A2-8871-BF4F5B4715A0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "05. Arrays\Lab\01. Day of Week\01. Day of Week.csproj", "{6E1DDDE4-A257-47EF-B726-3F21D5D28A24}"
 EndProject
@@ -223,7 +223,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Condense Array to Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Extract Middle Elements", "05. Arrays\Lab\09. Extract Middle Elements\09. Extract Middle Elements.csproj", "{6E4ABBD5-3C2D-4455-9A58-8BC940FDBB8E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Arrays - Exercises", "05. Arrays - Exercises", "{0666F306-18CE-4066-A111-51443ECD6045}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.2 Arrays - Exercises", "05.2 Arrays - Exercises", "{0666F306-18CE-4066-A111-51443ECD6045}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Largest Common End", "05. Arrays\Exercises\01. Largest Common End\01. Largest Common End.csproj", "{85FD0235-C155-46F4-BB88-8DDF06A86AFF}"
 EndProject
@@ -247,7 +247,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Pairs by Difference", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Equal Sums", "05. Arrays\Exercises\11. Equal Sums\11. Equal Sums.csproj", "{58DB08F5-3852-49D3-941F-9F0F91D9FBF1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Lists - Lab", "06. Lists - Lab", "{AFB96C7E-6698-40E5-A614-CB7A411977F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.1 Lists - Lab", "06.1 Lists - Lab", "{AFB96C7E-6698-40E5-A614-CB7A411977F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Remove Negatives and Reverse", "06. Lists\Lab\01. Remove Negatives and Reverse\01. Remove Negatives and Reverse.csproj", "{A313DD7D-BC96-4FC1-8FEB-6E447ADC28FC}"
 EndProject
@@ -263,7 +263,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Count Numbers", "06. Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Sort Numbers", "06. Lists\Lab\05. Sort Numbers\05. Sort Numbers.csproj", "{B8069EEE-03A5-4C6B-A9E7-4EAEE112B7EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Lists - Exercises", "06. Lists - Exercises", "{2A0E3DD7-DBC4-4BA6-8375-1DC169A94EFA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.2 Lists - Exercises", "06.2 Lists - Exercises", "{2A0E3DD7-DBC4-4BA6-8375-1DC169A94EFA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Max Sequence of Equal Elements", "06. Lists\Exercises\01. Max Sequence of Equal Elements\01. Max Sequence of Equal Elements.csproj", "{E1F0C71B-7AAE-47D5-BDCA-3F429BD23DB0}"
 EndProject
@@ -279,7 +279,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Change List", "06. List
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Search for a Number", "06. Lists\Exercises\03. Search for a Number\03. Search for a Number.csproj", "{E42602AE-F72D-4242-8D76-79D5D72BCD78}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Dictionaries, Lambda and LINQ - Lab", "07. Dictionaries, Lambda and LINQ - Lab", "{F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.1 Dictionaries, Lambda and LINQ - Lab", "07.1 Dictionaries, Lambda and LINQ - Lab", "{F99A8B8D-D85B-4E8A-AE61-0F8BBE2063C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Count Real Numbers", "07. Dictionaries, Lambda and LINQ\Lab\01. Count Real Numbers\01. Count Real Numbers.csproj", "{0A78DE13-F178-454F-A6E1-91DD6AB0E618}"
 EndProject
@@ -293,7 +293,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Short Words Sorted", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fold and Sum", "07. Dictionaries, Lambda and LINQ\Lab\06. Fold and Sum\06. Fold and Sum.csproj", "{DB890742-4CE8-46CF-A78F-4638FF40E726}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Dictionaries, Lambda and LINQ - Exercises", "07. Dictionaries, Lambda and LINQ - Exercises", "{245AF36C-B1A5-4F7B-947B-070C698ECED5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.2 Dictionaries, Lambda and LINQ - Exercises", "07.2 Dictionaries, Lambda and LINQ - Exercises", "{245AF36C-B1A5-4F7B-947B-070C698ECED5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Phonebook", "07. Dictionaries, Lambda and LINQ\Exercises\01. Phonebook\01. Phonebook.csproj", "{0D57DBC2-81C1-46D0-A17D-D5B42180E3C8}"
 EndProject
@@ -319,7 +319,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Dragon Army", "07. Dict
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Population Counter", "07. Dictionaries, Lambda and LINQ\Exercises\07. Population Counter\07. Population Counter.csproj", "{A79DC9DD-D601-4FC8-8942-CF9251BC7D7B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Objects and Classes - Lab", "08. Objects and Classes - Lab", "{8E8EFAEC-CCBF-4662-946A-FC0277F88687}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.1 Objects and Classes - Lab", "08.1 Objects and Classes - Lab", "{8E8EFAEC-CCBF-4662-946A-FC0277F88687}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Day of Week", "08. Objects and Classes\Lab\01. Day of Week\01. Day of Week.csproj", "{96ABB569-7145-4E87-9FF2-DB5EA0ACF7A1}"
 EndProject
@@ -335,7 +335,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Rectangle Position", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Sales Report", "08. Objects and Classes\Lab\07. Sales Report\07. Sales Report.csproj", "{F0125B2C-8281-4A4C-A9D9-D09441A588F8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Objects and Classes - Exercises", "08. Objects and Classes - Exercises", "{273AD9B8-6804-4E19-AD7D-03BD1D93D9CC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.2 Objects and Classes - Exercises", "08.2 Objects and Classes - Exercises", "{273AD9B8-6804-4E19-AD7D-03BD1D93D9CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Count Working Days", "08. Objects and Classes\Exercises\01. Count Working Days\01. Count Working Days.csproj", "{846BB7ED-9D66-458E-83C1-70E74DAF01E0}"
 EndProject
@@ -357,11 +357,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Teamwork Projects", "08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Student Groups", "08. Objects and Classes\Exercises\10. Student Groups\10. Student Groups.csproj", "{A56D8B04-CAC5-4F6D-9794-E493353DC634}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Strings and Text Processing - Lab", "09. Strings and Text Processing - Lab", "{C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.1 Strings and Text Processing - Lab", "09.1 Strings and Text Processing - Lab", "{C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Reverse String", "09. Strings and Text Processing\Lab\01. Reverse String\01. Reverse String.csproj", "{6D2F8A08-246D-43CA-B9A4-1E8D6988710D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Count Substring Occurrences", "09. Strings and Text Processing\Lab\02. Count Substring Occurrences\02. Count Substring Occurrences.csproj", "{9603B1CD-B027-4F27-BD78-6968774CE1C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Text Filter", "09. Strings and Text Processing\Lab\03. Text Filter\03. Text Filter.csproj", "{01F98FBF-1E16-4B0E-AABF-94180C642D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Palindromes", "09. Strings and Text Processing\Lab\04. Palindromes\04. Palindromes.csproj", "{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.2 Strings and Text Processing - Exercises", "09.2 Strings and Text Processing - Exercises", "{6B09D72A-3767-4BF1-A437-FF34951A10D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Convert from base-10 to base-N", "09. Strings and Text Processing\Exercises\01. Convert from base-10 to base-N\01. Convert from base-10 to base-N.csproj", "{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Convert from base-N to base-10", "09. Strings and Text Processing\Exercises\02. Convert from base-N to base-10\02. Convert from base-N to base-10.csproj", "{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Unicode Characters", "09. Strings and Text Processing\Exercises\03. Unicode Characters\03. Unicode Characters.csproj", "{737672EF-75B8-489A-9E37-8A27EE5AB9AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Character Multiplier", "09. Strings and Text Processing\Exercises\04. Character Multiplier\04. Character Multiplier.csproj", "{8715DCFD-657A-449C-B301-82D3E235341C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sum Big Numbers", "09. Strings and Text Processing\Exercises\06. Sum Big Numbers\06. Sum Big Numbers.csproj", "{EC24DB07-DC17-474B-B59F-3870E56CBD8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Magic Exchangeable Words", "09. Strings and Text Processing\Exercises\05. Magic Exchangeable Words\05. Magic Exchangeable Words.csproj", "{977D5250-EAF7-4817-9614-1BC76ED79131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Multiply Big Number", "09. Strings and Text Processing\Exercises\07. Multiply Big Number\07. Multiply Big Number.csproj", "{26D70643-0BDC-49B3-A3B4-C2CECCC65755}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Letters Change Numbers", "09. Strings and Text Processing\Exercises\08. Letters Change Numbers\08. Letters Change Numbers.csproj", "{602DAC95-1A86-47F4-BF1D-0BAFF42006E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Melrah Shake", "09. Strings and Text Processing\Exercises\09. Melrah Shake\09. Melrah Shake.csproj", "{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1021,6 +1045,50 @@ Global
 		{9603B1CD-B027-4F27-BD78-6968774CE1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9603B1CD-B027-4F27-BD78-6968774CE1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9603B1CD-B027-4F27-BD78-6968774CE1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F98FBF-1E16-4B0E-AABF-94180C642D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F98FBF-1E16-4B0E-AABF-94180C642D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F98FBF-1E16-4B0E-AABF-94180C642D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F98FBF-1E16-4B0E-AABF-94180C642D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{737672EF-75B8-489A-9E37-8A27EE5AB9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737672EF-75B8-489A-9E37-8A27EE5AB9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737672EF-75B8-489A-9E37-8A27EE5AB9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737672EF-75B8-489A-9E37-8A27EE5AB9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8715DCFD-657A-449C-B301-82D3E235341C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8715DCFD-657A-449C-B301-82D3E235341C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8715DCFD-657A-449C-B301-82D3E235341C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8715DCFD-657A-449C-B301-82D3E235341C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC24DB07-DC17-474B-B59F-3870E56CBD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC24DB07-DC17-474B-B59F-3870E56CBD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC24DB07-DC17-474B-B59F-3870E56CBD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC24DB07-DC17-474B-B59F-3870E56CBD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977D5250-EAF7-4817-9614-1BC76ED79131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977D5250-EAF7-4817-9614-1BC76ED79131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977D5250-EAF7-4817-9614-1BC76ED79131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977D5250-EAF7-4817-9614-1BC76ED79131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D70643-0BDC-49B3-A3B4-C2CECCC65755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D70643-0BDC-49B3-A3B4-C2CECCC65755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D70643-0BDC-49B3-A3B4-C2CECCC65755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D70643-0BDC-49B3-A3B4-C2CECCC65755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602DAC95-1A86-47F4-BF1D-0BAFF42006E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602DAC95-1A86-47F4-BF1D-0BAFF42006E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602DAC95-1A86-47F4-BF1D-0BAFF42006E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602DAC95-1A86-47F4-BF1D-0BAFF42006E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1188,6 +1256,17 @@ Global
 		{A56D8B04-CAC5-4F6D-9794-E493353DC634} = {273AD9B8-6804-4E19-AD7D-03BD1D93D9CC}
 		{6D2F8A08-246D-43CA-B9A4-1E8D6988710D} = {C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}
 		{9603B1CD-B027-4F27-BD78-6968774CE1C3} = {C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}
+		{01F98FBF-1E16-4B0E-AABF-94180C642D6E} = {C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}
+		{13C3A4A0-0806-4BAF-9FD6-2EC08EB69046} = {C5CD0C51-FA67-468B-B16F-6D3EE3A6CD51}
+		{6B51CCD8-086E-4E30-B6A1-DF2B011BAEBC} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{BD13F306-EEFD-46EB-BD8C-6BDC55B4AD6A} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{737672EF-75B8-489A-9E37-8A27EE5AB9AA} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{8715DCFD-657A-449C-B301-82D3E235341C} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{EC24DB07-DC17-474B-B59F-3870E56CBD8A} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{977D5250-EAF7-4817-9614-1BC76ED79131} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{26D70643-0BDC-49B3-A3B4-C2CECCC65755} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{602DAC95-1A86-47F4-BF1D-0BAFF42006E4} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
+		{6311DCD4-37BB-48E9-8928-1F8EAE9E22F3} = {6B09D72A-3767-4BF1-A437-FF34951A10D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F96CFDD-AC87-463C-8A86-BB7F86437910}
