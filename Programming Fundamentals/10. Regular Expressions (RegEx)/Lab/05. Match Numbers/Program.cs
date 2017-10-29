@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace _05.Match_Numbers
@@ -10,7 +11,16 @@ namespace _05.Match_Numbers
     {
         static void Main(string[] args)
         {
+            string pattern = @"(?<=\s|^)-?\d+(\.\d+)?($|(?=\s))";
+            string input = Console.ReadLine();
 
+            MatchCollection nums = Regex.Matches(input, pattern);        
+
+            foreach (Match num in nums)
+            {
+                Console.Write(num.Value + " ");
+            }
+            Console.WriteLine();
         }
     }
 }
