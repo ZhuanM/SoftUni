@@ -1,76 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Test
+﻿namespace Exercises_AnonymousDownsite
 {
-    class Program
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Numerics;
+
+    public class Exercises_AnonymousDownsite
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            List<string> participants = Console.ReadLine().Split(new char[] { ',', ' ' },
-               StringSplitOptions.RemoveEmptyEntries)
-               .ToList();
-            List<string> songs = Console.ReadLine().Split(new string[] { ", " },
-                StringSplitOptions.RemoveEmptyEntries)
-                .ToList();
-            string[] gettingAward = Console.ReadLine().Split(new string[] { ", " },
-                StringSplitOptions.RemoveEmptyEntries)
-                .ToArray();
+            int webSiteCnt = int.Parse(Console.ReadLine());
+            int securityKey = int.Parse(Console.ReadLine());
 
-            Dictionary<string, SortedSet<string>> dict =
-                new Dictionary<string, SortedSet<string>>();
+            List<string> webSites = new List<string>();
+            decimal totalLoss = 0;
+            decimal siteLoss = 0;
+
+            double securityToken = BigInteger.Pow(securityKey, webSiteCnt);
 
 
-            while (gettingAward[0] != "dawn")
+            for (int i = 0; i < webSiteCnt; i++)
             {
-                string participant = gettingAward[0];
-                string song = gettingAward[1];
-                string award = gettingAward[2];
 
-                if (participants.Contains(participant) && songs.Contains(song))
-                {
-                    if (!dict.ContainsKey(participant))
-                    {
-                        dict.Add(participant, new SortedSet<string>());
-                    }
+                string[] tokens = Console.ReadLine()
+                    .Split(' ')
+                    .ToArray();
 
-                    if (!dict[participant].Contains(award))
-                    {
-                        dict[participant].Add(award);
-                    }
+                string siteName = tokens[0];
+                long siteVisits = long.Parse(tokens[1]);
+                decimal pricePerVisit = decimal.Parse(tokens[2]);
 
-                }
-                gettingAward = Console.ReadLine().Split(new string[] { ", " },
-                StringSplitOptions.RemoveEmptyEntries)
-                .ToArray();
+                webSites.Add(siteName);
+                siteLoss = siteVisits * pricePerVisit;
+                totalLoss += siteLoss;
 
             }
 
-            if (dict.Count < 1)
-            {
-                Console.WriteLine("No awards");
-            }
-            else
-            {
-
-                foreach (var item in dict.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key))
-                {
-                    var items = item.Value;
-
-                    if (item.Value.Count > 0)
-                    {
-                        Console.WriteLine(item.Key + ": " + items.Count + " awards");
-                    }
-
-                    foreach (var l in items)
-                    {
-                        Console.WriteLine("--" + l);
-                    }
-                }
-            }
+            Console.WriteLine(string.Join(Environment.NewLine, webSites));
+            Console.WriteLine($"Total Loss: {totalLoss:F20}");
+            Console.WriteLine($"Security Token: {securityToken}");
         }
     }
 }
