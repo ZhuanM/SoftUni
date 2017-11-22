@@ -39,5 +39,20 @@ module.exports = {
         Article.findById(articleId).populate('author').then(article => {
             res.render('article/details', article);
         })
+    },
+    deleteGet: (req, res) => {
+      // pravim proverka dali sme gost ili choveka, koito e post-nal article-a
+        if (!req.isAuthenticated()){
+            res.redirect('/user/login');
+        } else {
+            let articleId = req.params.id;
+            Article.findByIdAndRemove(articleId).then(deletedArticle => {
+                console.log(deletedArticle);
+                res.redirect('/');
+            }).catch(err => {
+                let errorMessage = 'Cannot find article with id';
+                res.redirect('/', {error: errorMessage});
+            })
+        }
     }
 };
