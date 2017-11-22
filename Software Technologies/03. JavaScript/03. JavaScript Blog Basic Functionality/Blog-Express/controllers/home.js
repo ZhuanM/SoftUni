@@ -1,9 +1,9 @@
-const Article = require("../models/Article");
+const Article = require('mongoose').model('Article');
 
 module.exports = {
   index: (req, res) => {
-      Article.find().then(articles => {
-          res.render('index', { articles });
+      Article.find({}).limit(6).populate('author').then(articles => {
+          res.render('index', { articles: articles });
       });
   }
 };
