@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 Data Types, Variables and Methods - Lab", "01.1 Data Types, Variables and Methods - Lab", "{A021DD29-9BD2-4129-96F8-C3F42914F5CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2 Data Types, Variables and Methods - Exercises", "01.2 Data Types, Variables and Methods - Exercises", "{EAFA211F-2576-4635-A897-9A45A2371578}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.1 Arrays, Lists, Array and List Algorithms - Lab", "02.1 Arrays, Lists, Array and List Algorithms - Lab", "{D0F9B806-3C1F-4A4D-93D3-D90A47EA72DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.2 Arrays, Lists, Array and List Algorithms - Exercises", "02.2 Arrays, Lists, Array and List Algorithms - Exercises", "{83B91F5D-1AC0-4DBB-A0DF-5A72DFE41203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.1 Strings, Regular Expressions and Text Processing - Lab", "03.1 Strings, Regular Expressions and Text Processing - Lab", "{5BFFD0BB-BB4C-4B1D-AAB4-5644DEF508E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.2 Strings, Regular Expressions and Text Processing - Exercises", "03.2 Strings, Regular Expressions and Text Processing - Exercises", "{D93401E7-5B8D-4DA9-AD13-9BC4963C6680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.1 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Lab", "04.1 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Lab", "{28F2E365-8F89-4A96-90DE-5D97EFE64132}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.2 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Exercises", "04.2 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Exercises", "{110D34BB-6D1E-4613-ADB6-1750003033C0}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF5833CB-80F8-46B9-80BE-DFA66121F7B4}
+	EndGlobalSection
+EndGlobal

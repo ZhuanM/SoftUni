@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 CSharp Intro and Basic Syntax - Lab", "01.1 CSharp Intro and Basic Syntax - Lab", "{3DC235F9-0589-45D2-B0AE-3AD205A09928}"
 EndProject
@@ -299,8 +299,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Phonebook", "07. Dictio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Phonebook Upgrade", "07. Dictionaries, Lambda and LINQ\Exercises\02. Phonebook Upgrade\02. Phonebook Upgrade.csproj", "{EA0467B6-DC1E-428E-B075-E1150D2BEF39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{64FA9762-04D2-4F29-A389-5B08DA6BD502}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. A Miner Task", "07. Dictionaries, Lambda and LINQ\Exercises\03. A Miner Task\03. A Miner Task.csproj", "{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fix Emails", "07. Dictionaries, Lambda and LINQ\Exercises\04. Fix Emails\04. Fix Emails.csproj", "{9077C97E-E492-4AC8-934A-46B233782C3D}"
@@ -432,6 +430,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation II", "Exam Preparation II", "{EABBD430-D21A-4372-A07A-C79A4F2F629F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Charity Marathon", "Exam Preparation II\01. Charity Marathon\01. Charity Marathon.csproj", "{8531344A-5A5C-4D88-8C2A-9AC604453099}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{438DDAFC-D71F-481F-913A-C6B7E9EBDCEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -975,10 +975,6 @@ Global
 		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA0467B6-DC1E-428E-B075-E1150D2BEF39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{64FA9762-04D2-4F29-A389-5B08DA6BD502}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE96BD92-EA7C-4021-9C5B-CF1B161F2C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -1211,6 +1207,10 @@ Global
 		{8531344A-5A5C-4D88-8C2A-9AC604453099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8531344A-5A5C-4D88-8C2A-9AC604453099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8531344A-5A5C-4D88-8C2A-9AC604453099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438DDAFC-D71F-481F-913A-C6B7E9EBDCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438DDAFC-D71F-481F-913A-C6B7E9EBDCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438DDAFC-D71F-481F-913A-C6B7E9EBDCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438DDAFC-D71F-481F-913A-C6B7E9EBDCEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
