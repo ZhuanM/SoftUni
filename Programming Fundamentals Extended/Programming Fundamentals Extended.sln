@@ -19,7 +19,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.1 Dictionaries, Nested C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.2 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Exercises", "04.2 Dictionaries, Nested Collections, LINQ and Lambda Expressions - Exercises", "{110D34BB-6D1E-4613-ADB6-1750003033C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{6C0FFB6C-8FD0-4DBC-AFD1-971CD6DBD31F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0FFB6C-8FD0-4DBC-AFD1-971CD6DBD31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0FFB6C-8FD0-4DBC-AFD1-971CD6DBD31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0FFB6C-8FD0-4DBC-AFD1-971CD6DBD31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0FFB6C-8FD0-4DBC-AFD1-971CD6DBD31F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
