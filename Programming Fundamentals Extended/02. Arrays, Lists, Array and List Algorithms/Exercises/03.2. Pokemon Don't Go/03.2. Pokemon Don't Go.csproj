@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{054DD864-EE4C-4054-A346-AE6B0E9D9D38}</ProjectGuid>
+    <ProjectGuid>{E8C68D13-445C-4C86-9673-2CEF05E4EB23}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_03._2.Pokemon_Don_t_Go</RootNamespace>
     <AssemblyName>_03._2.Pokemon_Don_t_Go</AssemblyName>
