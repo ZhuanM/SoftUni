@@ -83,6 +83,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Replace a tag", "03. St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1. Count Substring", "03. Strings, Regular Expressions and Text Processing\Lab\02.1. Count Substring\02.1. Count Substring.csproj", "{3F67199C-393E-4D74-8790-4DA14758DC3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Trainegram", "03. Strings, Regular Expressions and Text Processing\Exercises\01. Trainegram\01. Trainegram.csproj", "{DFFF0AE9-B855-4EEC-A35D-36D001D592D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Anonymous Vox", "03. Strings, Regular Expressions and Text Processing\Exercises\02. Anonymous Vox\02. Anonymous Vox.csproj", "{C55C8494-B743-490F-A0BD-2C421D192864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hornet Comm", "03. Strings, Regular Expressions and Text Processing\Exercises\03. Hornet Comm.\03. Hornet Comm.csproj", "{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X. Phoenix Grid", "03. Strings, Regular Expressions and Text Processing\Exercises\X. Phoenix Grid\X. Phoenix Grid.csproj", "{5D88875D-94E7-46F4-99FF-6D10A6B86293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X. Regexmon", "03. Strings, Regular Expressions and Text Processing\Exercises\X. Regexmon\X. Regexmon.csproj", "{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +227,26 @@ Global
 		{3F67199C-393E-4D74-8790-4DA14758DC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F67199C-393E-4D74-8790-4DA14758DC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F67199C-393E-4D74-8790-4DA14758DC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFFF0AE9-B855-4EEC-A35D-36D001D592D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFF0AE9-B855-4EEC-A35D-36D001D592D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFF0AE9-B855-4EEC-A35D-36D001D592D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFF0AE9-B855-4EEC-A35D-36D001D592D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55C8494-B743-490F-A0BD-2C421D192864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55C8494-B743-490F-A0BD-2C421D192864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55C8494-B743-490F-A0BD-2C421D192864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55C8494-B743-490F-A0BD-2C421D192864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D88875D-94E7-46F4-99FF-6D10A6B86293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D88875D-94E7-46F4-99FF-6D10A6B86293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D88875D-94E7-46F4-99FF-6D10A6B86293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D88875D-94E7-46F4-99FF-6D10A6B86293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +283,11 @@ Global
 		{D1842DBE-AA51-4950-9C9F-FC33B5887CBB} = {5BFFD0BB-BB4C-4B1D-AAB4-5644DEF508E1}
 		{39DDC72D-A7E2-4D1C-AEA0-A1C411E68FFE} = {5BFFD0BB-BB4C-4B1D-AAB4-5644DEF508E1}
 		{3F67199C-393E-4D74-8790-4DA14758DC3F} = {5BFFD0BB-BB4C-4B1D-AAB4-5644DEF508E1}
+		{DFFF0AE9-B855-4EEC-A35D-36D001D592D3} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
+		{C55C8494-B743-490F-A0BD-2C421D192864} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
+		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
+		{5D88875D-94E7-46F4-99FF-6D10A6B86293} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
+		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5833CB-80F8-46B9-80BE-DFA66121F7B4}
