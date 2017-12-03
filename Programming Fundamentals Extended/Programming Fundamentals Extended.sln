@@ -87,11 +87,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Trainegram", "03. Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Anonymous Vox", "03. Strings, Regular Expressions and Text Processing\Exercises\02. Anonymous Vox\02. Anonymous Vox.csproj", "{C55C8494-B743-490F-A0BD-2C421D192864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hornet Comm", "03. Strings, Regular Expressions and Text Processing\Exercises\03. Hornet Comm.\03. Hornet Comm.csproj", "{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Hornet Comm", "03. Strings, Regular Expressions and Text Processing\Exercises\03. Hornet Comm\03. Hornet Comm.csproj", "{E01F605A-AF12-481E-A2BE-7E530CF4DB8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X. Phoenix Grid", "03. Strings, Regular Expressions and Text Processing\Exercises\X. Phoenix Grid\X. Phoenix Grid.csproj", "{5D88875D-94E7-46F4-99FF-6D10A6B86293}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X. Regexmon", "03. Strings, Regular Expressions and Text Processing\Exercises\X. Regexmon\X. Regexmon.csproj", "{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd Occurences", "04. Dictionaries, LINQ and Lambda\Lab\01. Odd Occurences\01. Odd Occurences.csproj", "{03F77081-83F6-4BFB-8917-416FB7E7AE2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Average Student Grades", "04. Dictionaries, LINQ and Lambda\Lab\02. Average Student Grades\02. Average Student Grades.csproj", "{686D47CA-34BA-4CFE-9AE0-2CAF66570C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Cities by Continent - Country", "04. Dictionaries, LINQ and Lambda\Lab\03.Cities by Continent - Country\03.Cities by Continent - Country.csproj", "{A1395661-552E-4C25-B648-7D5E240DC506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sum, Min, Max, Average", "04. Dictionaries, LINQ and Lambda\Lab\04. Sum, Min, Max, Average\04. Sum, Min, Max, Average.csproj", "{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Largest 3 Nums", "04. Dictionaries, LINQ and Lambda\Lab\05. Largest 3 Nums\05. Largest 3 Nums.csproj", "{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fold and Sum", "04. Dictionaries, LINQ and Lambda\Lab\06. Fold and Sum\06. Fold and Sum.csproj", "{F2364324-0405-42CA-98BE-19A809A28B6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +259,30 @@ Global
 		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F77081-83F6-4BFB-8917-416FB7E7AE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F77081-83F6-4BFB-8917-416FB7E7AE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F77081-83F6-4BFB-8917-416FB7E7AE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F77081-83F6-4BFB-8917-416FB7E7AE2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{686D47CA-34BA-4CFE-9AE0-2CAF66570C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686D47CA-34BA-4CFE-9AE0-2CAF66570C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686D47CA-34BA-4CFE-9AE0-2CAF66570C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686D47CA-34BA-4CFE-9AE0-2CAF66570C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1395661-552E-4C25-B648-7D5E240DC506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1395661-552E-4C25-B648-7D5E240DC506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1395661-552E-4C25-B648-7D5E240DC506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1395661-552E-4C25-B648-7D5E240DC506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2364324-0405-42CA-98BE-19A809A28B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2364324-0405-42CA-98BE-19A809A28B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2364324-0405-42CA-98BE-19A809A28B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2364324-0405-42CA-98BE-19A809A28B6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,6 +324,12 @@ Global
 		{E01F605A-AF12-481E-A2BE-7E530CF4DB8F} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
 		{5D88875D-94E7-46F4-99FF-6D10A6B86293} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
 		{79CEAA48-5152-4FA7-B5DD-7BE2F87312E7} = {D93401E7-5B8D-4DA9-AD13-9BC4963C6680}
+		{03F77081-83F6-4BFB-8917-416FB7E7AE2E} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
+		{686D47CA-34BA-4CFE-9AE0-2CAF66570C06} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
+		{A1395661-552E-4C25-B648-7D5E240DC506} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
+		{1D05CEC0-AC67-4E9F-BD62-B4089F925CE8} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
+		{E51BE6F8-2146-4DAF-92F3-F8F9A6CCD88C} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
+		{F2364324-0405-42CA-98BE-19A809A28B6C} = {28F2E365-8F89-4A96-90DE-5D97EFE64132}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF5833CB-80F8-46B9-80BE-DFA66121F7B4}
