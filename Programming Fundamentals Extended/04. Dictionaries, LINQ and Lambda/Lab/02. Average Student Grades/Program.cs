@@ -20,14 +20,12 @@ namespace _02.Average_Student_Grades
                 string name = tokens[0];
                 double grade = double.Parse(tokens[1]);
 
-                if (grades.ContainsKey(name))
+                if (!grades.ContainsKey(name))
                 {
-                    grades[name].Add(grade);
+                    grades[name] = new List<double>();
                 }
-                else
-                {
-                    grades[name] = new List<double>() { grade };
-                }
+
+                grades[name].Add(grade);
             }
 
             foreach (var student in grades)

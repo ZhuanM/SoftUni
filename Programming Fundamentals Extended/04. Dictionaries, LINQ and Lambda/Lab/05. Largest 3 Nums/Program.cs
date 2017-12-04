@@ -10,7 +10,14 @@ namespace _05.Largest_3_Nums
     {
         static void Main(string[] args)
         {
+            List<double> list = Console.ReadLine()
+                .Split()
+                .Select(double.Parse)
+                .OrderByDescending(x => x)
+                .Take(3)
+                .ToList();
 
+            Console.WriteLine(string.Join(" ", list));
         }
     }
 }
