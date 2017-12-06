@@ -17,7 +17,7 @@ namespace _02.Hornet_Armada
 
             for (int i = 0; i < n; i++)
             {
-                string[] input = Console.ReadLine().Split("=->:".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                string[] input = Console.ReadLine().Split("=->: ".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
 
                 long lastActivity = long.Parse(input[0]);
                 string legionName = input[1];
