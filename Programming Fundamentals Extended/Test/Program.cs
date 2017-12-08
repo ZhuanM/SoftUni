@@ -17,7 +17,7 @@ namespace Test
 
             while (input != "wubbalubbadubdub")
             {
-                string[] tokens = input.Split(new[] { ' ', '-', '>' }, StringSplitOptions.RemoveEmptyEntries);
+                string[] tokens = input.Split(new[] {' ', '-', '>'}, StringSplitOptions.RemoveEmptyEntries);
 
                 if (tokens.Length > 1) //{pokemonName} -> {evolutionType} -> {evolutionIndex}
                 {
@@ -55,16 +55,15 @@ namespace Test
             }
 
             //OUTPUT
-            foreach (var item in pokemonDict)
+            foreach (var pokemon in pokemonDict.Keys)
             {
-                Console.WriteLine($"# {item.Key}");
-                if (item.Value.Values.Count > 1)
+                Console.WriteLine($"# {pokemon}");
+                foreach (var evolution in pokemonDict[pokemon].Keys)
                 {
-
-                }
-                foreach (var inner in item.Value)
-                {
-                    Console.WriteLine($"{inner.Key} <-> {inner.Value}");
+                    foreach (int index in pokemonDict[pokemon][evolution].OrderByDescending(i => i))
+                    {
+                        Console.WriteLine($"{evolution} <-> {index}");
+                    }
                 }
             }
         }
