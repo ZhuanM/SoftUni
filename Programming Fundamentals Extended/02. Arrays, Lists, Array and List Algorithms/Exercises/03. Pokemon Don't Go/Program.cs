@@ -36,7 +36,6 @@ namespace _03.Pokemon_Don_t_Go
                     int firstElement = elements[0];
                     elements.Insert(index, firstElement);
 
-
                     IncreaseAndDecrease(elements, removedElements);
                 }
                 else
