@@ -3,9 +3,83 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{62808182-DE2F-4F8C-9732-4500B677913E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 Stacks and Queues - Lab", "01.1 Stacks and Queues - Lab", "{3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2 Stacks and Queues - Exercises", "01.2 Stacks and Queues - Exercises", "{47DEB48D-7A87-40F2-AB38-37CFAD43989A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Reverse Strings", "01. Stacks and Queues\Lab\1. Reverse Strings\1. Reverse Strings.csproj", "{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Simple Calculator", "01. Stacks and Queues\Lab\2. Simple Calculator\2. Simple Calculator.csproj", "{0D2CB906-A144-4916-8CDA-911794B76482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Decimal to Binary Converter", "01. Stacks and Queues\Lab\3. Decimal to Binary Converter\3. Decimal to Binary Converter.csproj", "{E04643E0-CE38-40E5-BA40-0022B2E7B06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Matching Brackets", "01. Stacks and Queues\Lab\4. Matching Brackets\4. Matching Brackets.csproj", "{4CCCD051-F08A-4505-BC06-A6F651C08AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Hot Potato", "01. Stacks and Queues\Lab\5. Hot Potato\5. Hot Potato.csproj", "{3B039964-A46E-439F-B031-7AC1F5C8472E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Traffic Jam", "01. Stacks and Queues\Lab\6. Traffic Jam\6. Traffic Jam.csproj", "{23169149-4547-4F70-85A2-0E1D0889657A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2 Reverse Strings", "01. Stacks and Queues\Lab\1.2 Reverse Strings\1.2 Reverse Strings.csproj", "{0878060E-FC94-4A96-8946-6BED4CD72204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.1 Decimal to Binary Converter", "01. Stacks and Queues\Lab\3.1 Decimal to Binary Converter\3.1 Decimal to Binary Converter.csproj", "{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62808182-DE2F-4F8C-9732-4500B677913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62808182-DE2F-4F8C-9732-4500B677913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62808182-DE2F-4F8C-9732-4500B677913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62808182-DE2F-4F8C-9732-4500B677913E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2CB906-A144-4916-8CDA-911794B76482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2CB906-A144-4916-8CDA-911794B76482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2CB906-A144-4916-8CDA-911794B76482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2CB906-A144-4916-8CDA-911794B76482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04643E0-CE38-40E5-BA40-0022B2E7B06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04643E0-CE38-40E5-BA40-0022B2E7B06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04643E0-CE38-40E5-BA40-0022B2E7B06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04643E0-CE38-40E5-BA40-0022B2E7B06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CCCD051-F08A-4505-BC06-A6F651C08AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCCD051-F08A-4505-BC06-A6F651C08AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCCD051-F08A-4505-BC06-A6F651C08AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCCD051-F08A-4505-BC06-A6F651C08AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B039964-A46E-439F-B031-7AC1F5C8472E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B039964-A46E-439F-B031-7AC1F5C8472E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B039964-A46E-439F-B031-7AC1F5C8472E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B039964-A46E-439F-B031-7AC1F5C8472E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23169149-4547-4F70-85A2-0E1D0889657A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23169149-4547-4F70-85A2-0E1D0889657A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23169149-4547-4F70-85A2-0E1D0889657A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23169149-4547-4F70-85A2-0E1D0889657A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0878060E-FC94-4A96-8946-6BED4CD72204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0878060E-FC94-4A96-8946-6BED4CD72204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0878060E-FC94-4A96-8946-6BED4CD72204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0878060E-FC94-4A96-8946-6BED4CD72204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC7AAEEE-CD0C-4EED-A6E4-67EE865C0236} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{0D2CB906-A144-4916-8CDA-911794B76482} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{E04643E0-CE38-40E5-BA40-0022B2E7B06D} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{4CCCD051-F08A-4505-BC06-A6F651C08AAA} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{3B039964-A46E-439F-B031-7AC1F5C8472E} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{23169149-4547-4F70-85A2-0E1D0889657A} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{0878060E-FC94-4A96-8946-6BED4CD72204} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
+		{9C0E6F31-DA8B-4EC4-B9E0-C556853EABA7} = {3400B7D8-B89F-43FB-9A12-D0ABA14FD61E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F86E276D-EEF6-4485-A2BB-B6B8B8196B6E}
