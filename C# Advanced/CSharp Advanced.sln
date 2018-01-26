@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{62808182-DE2F-4F8C-9732-4500B677913E}"
 EndProject
@@ -46,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Simple Text Editor", "01. Stacks and Queues\Exercises\10. Simple Text Editor\10. Simple Text Editor.csproj", "{981AD562-7785-4DC0-AB08-FCFBC076C10B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Poisonous Plants", "01. Stacks and Queues\Exercises\11. Poisonous Plants\11. Poisonous Plants.csproj", "{CF31FA43-59AD-42DB-94D2-A22966995E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.2 Poisonous Plants", "01. Stacks and Queues\Exercises\11.2 Poisonous Plants\11.2 Poisonous Plants.csproj", "{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,6 +135,10 @@ Global
 		{CF31FA43-59AD-42DB-94D2-A22966995E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF31FA43-59AD-42DB-94D2-A22966995E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF31FA43-59AD-42DB-94D2-A22966995E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +163,7 @@ Global
 		{8B8C3F56-90AE-4775-A1E0-D7AA15138F08} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
 		{981AD562-7785-4DC0-AB08-FCFBC076C10B} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
 		{CF31FA43-59AD-42DB-94D2-A22966995E2C} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
+		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F86E276D-EEF6-4485-A2BB-B6B8B8196B6E}
