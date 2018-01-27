@@ -49,6 +49,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Poisonous Plants", "01.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.2 Poisonous Plants", "01. Stacks and Queues\Exercises\11.2 Poisonous Plants\11.2 Poisonous Plants.csproj", "{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.1 Multidimensional Arrays - Lab", "02.1 Multidimensional Arrays - Lab", "{71094826-1D9B-4CE0-B87D-634D3D533500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Sum Matrix Elements", "02. Multidimensional Arrays\Lab\1. Sum Matrix Elements\1. Sum Matrix Elements.csproj", "{11533D32-AF38-4DF5-B90F-AA4220EA4617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Square With Maximum Sum", "02. Multidimensional Arrays\Lab\2. Square With Maximum Sum\2. Square With Maximum Sum.csproj", "{7049E10D-18FF-409A-95FD-16379B9D8C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Group Numbers", "02. Multidimensional Arrays\Lab\3. Group Numbers\3. Group Numbers.csproj", "{20B14405-249D-4F22-A0EC-6B615D35A73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Pascal Triangle", "02. Multidimensional Arrays\Lab\4. Pascal Triangle\4. Pascal Triangle.csproj", "{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +149,22 @@ Global
 		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11533D32-AF38-4DF5-B90F-AA4220EA4617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11533D32-AF38-4DF5-B90F-AA4220EA4617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11533D32-AF38-4DF5-B90F-AA4220EA4617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11533D32-AF38-4DF5-B90F-AA4220EA4617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7049E10D-18FF-409A-95FD-16379B9D8C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7049E10D-18FF-409A-95FD-16379B9D8C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7049E10D-18FF-409A-95FD-16379B9D8C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7049E10D-18FF-409A-95FD-16379B9D8C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B14405-249D-4F22-A0EC-6B615D35A73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B14405-249D-4F22-A0EC-6B615D35A73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B14405-249D-4F22-A0EC-6B615D35A73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B14405-249D-4F22-A0EC-6B615D35A73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +190,10 @@ Global
 		{981AD562-7785-4DC0-AB08-FCFBC076C10B} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
 		{CF31FA43-59AD-42DB-94D2-A22966995E2C} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
 		{FAB1D3C7-94D0-483C-BE5B-C76D5E1A1E49} = {47DEB48D-7A87-40F2-AB38-37CFAD43989A}
+		{11533D32-AF38-4DF5-B90F-AA4220EA4617} = {71094826-1D9B-4CE0-B87D-634D3D533500}
+		{7049E10D-18FF-409A-95FD-16379B9D8C34} = {71094826-1D9B-4CE0-B87D-634D3D533500}
+		{20B14405-249D-4F22-A0EC-6B615D35A73E} = {71094826-1D9B-4CE0-B87D-634D3D533500}
+		{D7FE1C8D-CD4B-4108-8E72-86AD34CC2054} = {71094826-1D9B-4CE0-B87D-634D3D533500}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F86E276D-EEF6-4485-A2BB-B6B8B8196B6E}
