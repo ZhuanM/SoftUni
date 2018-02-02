@@ -61,23 +61,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Pascal Triangle", "02. M
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.2 Multidimensional Arrays - Exercises", "02.2 Multidimensional Arrays - Exercises", "{0CB6FD2F-C0C9-4BD8-9103-202628337F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Matrix of Palindromes", "02. Multidimensional Arrays\Exercises\1. Matrix of Palindromes\1. Matrix of Palindromes.csproj", "{C1777F39-C3F7-4F0A-BE9F-A247AF269E17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Matrix of Palindromes", "02. Multidimensional Arrays\Exercises\1. Matrix of Palindromes\01. Matrix of Palindromes.csproj", "{C1777F39-C3F7-4F0A-BE9F-A247AF269E17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Diagonal Difference", "02. Multidimensional Arrays\Exercises\2. Diagonal Difference\2. Diagonal Difference.csproj", "{9A31F4EF-C8CD-4CB7-92CF-B5E9EA5FBEC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Diagonal Difference", "02. Multidimensional Arrays\Exercises\2. Diagonal Difference\02. Diagonal Difference.csproj", "{9A31F4EF-C8CD-4CB7-92CF-B5E9EA5FBEC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Squares in Matrix", "02. Multidimensional Arrays\Exercises\3. Squares in Matrix\3. Squares in Matrix.csproj", "{F9CF3BCB-09AA-44E5-BAE7-660C21291272}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Squares in Matrix", "02. Multidimensional Arrays\Exercises\3. Squares in Matrix\03. Squares in Matrix.csproj", "{F9CF3BCB-09AA-44E5-BAE7-660C21291272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Maximal Sum", "02. Multidimensional Arrays\Exercises\4. Maximal Sum\4. Maximal Sum.csproj", "{5448F85F-9161-4CA7-8B6E-1F7932C59D7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Maximal Sum", "02. Multidimensional Arrays\Exercises\4. Maximal Sum\04. Maximal Sum.csproj", "{5448F85F-9161-4CA7-8B6E-1F7932C59D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Rubiks Matrix", "02. Multidimensional Arrays\Exercises\5. Rubiks Matrix\5. Rubiks Matrix.csproj", "{28D354CD-DACC-47C3-9208-8BA881216087}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Rubiks Matrix", "02. Multidimensional Arrays\Exercises\5. Rubiks Matrix\05. Rubiks Matrix.csproj", "{28D354CD-DACC-47C3-9208-8BA881216087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Target Practice", "02. Multidimensional Arrays\Exercises\6. Target Practice\6. Target Practice.csproj", "{DAB8C6AE-7BC3-434E-980D-6CDB8F2C138D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Target Practice", "02. Multidimensional Arrays\Exercises\6. Target Practice\06. Target Practice.csproj", "{DAB8C6AE-7BC3-434E-980D-6CDB8F2C138D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7. Lego Blocks", "02. Multidimensional Arrays\Exercises\7. Lego Blocks\7. Lego Blocks.csproj", "{F3B292BA-AD88-48BC-9370-FF87A3043609}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Lego Blocks", "02. Multidimensional Arrays\Exercises\7. Lego Blocks\07. Lego Blocks.csproj", "{F3B292BA-AD88-48BC-9370-FF87A3043609}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. Radioactive Bunnies", "02. Multidimensional Arrays\Exercises\8. Radioactive Bunnies\8. Radioactive Bunnies.csproj", "{E3B848DB-A949-45D1-9D8D-9352613EDB6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Radioactive Bunnies", "02. Multidimensional Arrays\Exercises\8. Radioactive Bunnies\08. Radioactive Bunnies.csproj", "{E3B848DB-A949-45D1-9D8D-9352613EDB6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. Crossfire", "02. Multidimensional Arrays\Exercises\9. Crossfire\9. Crossfire.csproj", "{F9B7ED30-24B0-41E7-965E-03770C3FDC63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Crossfire", "02. Multidimensional Arrays\Exercises\9. Crossfire\09. Crossfire.csproj", "{F9B7ED30-24B0-41E7-965E-03770C3FDC63}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. The Heigan Dance", "02. Multidimensional Arrays\Exercises\10. The Heigan Dance\10. The Heigan Dance.csproj", "{433D045B-5F0E-40B7-A005-4B3BE94891D4}"
 EndProject
