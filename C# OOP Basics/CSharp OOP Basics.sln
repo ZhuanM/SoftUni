@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 Defining Classes - Lab", "01.1 Defining Classes - Lab", "{F0A4B93F-375C-4771-8674-7608E956B19D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2 Defining Classes - Exercises", "01.2 Defining Classes - Exercises", "{88F2D253-B1DA-4440-9A67-81DE7CEE8FCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Bank Account", "01. Defining Classes\Lab\01. Bank Account\01. Bank Account.csproj", "{9C329D46-C462-4652-91CF-48FB41F31830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Bank Account Methods", "01. Defining Classes\Lab\02. Bank Account Methods\02. Bank Account Methods.csproj", "{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Test Client", "01. Defining Classes\Lab\03. Test Client\03. Test Client.csproj", "{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Person Class", "01. Defining Classes\Lab\04. Person Class\04. Person Class.csproj", "{EEE5B530-B414-43A9-9144-4487C9D59506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C329D46-C462-4652-91CF-48FB41F31830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C329D46-C462-4652-91CF-48FB41F31830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C329D46-C462-4652-91CF-48FB41F31830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C329D46-C462-4652-91CF-48FB41F31830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE5B530-B414-43A9-9144-4487C9D59506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE5B530-B414-43A9-9144-4487C9D59506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE5B530-B414-43A9-9144-4487C9D59506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE5B530-B414-43A9-9144-4487C9D59506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C329D46-C462-4652-91CF-48FB41F31830} = {F0A4B93F-375C-4771-8674-7608E956B19D}
+		{AEA7186F-BAFB-44BF-9691-73E99B7CDC0A} = {F0A4B93F-375C-4771-8674-7608E956B19D}
+		{0DC74A0B-4FF7-4E3E-BA69-AC68BB817D97} = {F0A4B93F-375C-4771-8674-7608E956B19D}
+		{EEE5B530-B414-43A9-9144-4487C9D59506} = {F0A4B93F-375C-4771-8674-7608E956B19D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E78737CD-8653-40F9-AC22-4A40FFC0196F}
+	EndGlobalSection
+EndGlobal
