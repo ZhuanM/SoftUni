@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Test
+public abstract class Figure
 {
-    class Program
+    public virtual void Draw()
     {
-        static void Main(string[] args)
-        {
-            
-        }
+
     }
 }
