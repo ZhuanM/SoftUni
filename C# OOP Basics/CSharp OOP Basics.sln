@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 Defining Classes - Lab", "01.1 Defining Classes - Lab", "{F0A4B93F-375C-4771-8674-7608E956B19D}"
 EndProject
@@ -72,6 +72,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sneaking", "02. Working with Abstraction\Exercises\06. Sneaking\06. Sneaking.csproj", "{87E304C5-ECD5-4F9C-BA26-61683C72D018}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Family Tree", "02. Working with Abstraction\Exercises\07. Family Tree\07. Family Tree.csproj", "{7CD184AE-1034-461A-AD07-AA0CB1590DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.1 Encapsulation - Lab", "03.1 Encapsulation - Lab", "{7F084745-CC31-47C1-856D-23568AF2A236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.2 Encapsulation - Exercises", "03.2 Encapsulation - Exercises", "{21EE93B9-B737-4502-B057-EC54D584481B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Persons", "03. Encapsulation\Lab\01. Persons\01. Persons.csproj", "{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Salary", "03. Encapsulation\Lab\02. Salary\02. Salary.csproj", "{1042DF70-EB5C-4620-96DF-A29329B81FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Validation", "03. Encapsulation\Lab\03. Validation\03. Validation.csproj", "{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Team", "03. Encapsulation\Lab\04. Team\04. Team.csproj", "{8A46FFEF-B64F-4CEE-A336-61498B9DB063}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -203,6 +215,22 @@ Global
 		{7CD184AE-1034-461A-AD07-AA0CB1590DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CD184AE-1034-461A-AD07-AA0CB1590DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CD184AE-1034-461A-AD07-AA0CB1590DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1042DF70-EB5C-4620-96DF-A29329B81FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1042DF70-EB5C-4620-96DF-A29329B81FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1042DF70-EB5C-4620-96DF-A29329B81FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1042DF70-EB5C-4620-96DF-A29329B81FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A46FFEF-B64F-4CEE-A336-61498B9DB063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A46FFEF-B64F-4CEE-A336-61498B9DB063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A46FFEF-B64F-4CEE-A336-61498B9DB063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A46FFEF-B64F-4CEE-A336-61498B9DB063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -238,6 +266,10 @@ Global
 		{D6710588-2016-4B77-804C-3F4255737749} = {62F7F8A1-381C-4B9D-8E74-ED8F1699B94A}
 		{87E304C5-ECD5-4F9C-BA26-61683C72D018} = {62F7F8A1-381C-4B9D-8E74-ED8F1699B94A}
 		{7CD184AE-1034-461A-AD07-AA0CB1590DB1} = {62F7F8A1-381C-4B9D-8E74-ED8F1699B94A}
+		{C8BE1E8D-FBAC-4FDA-925F-D707AD183DB2} = {7F084745-CC31-47C1-856D-23568AF2A236}
+		{1042DF70-EB5C-4620-96DF-A29329B81FD7} = {7F084745-CC31-47C1-856D-23568AF2A236}
+		{DE18CBE1-BFDB-4951-884F-4D7D5A8BC94A} = {7F084745-CC31-47C1-856D-23568AF2A236}
+		{8A46FFEF-B64F-4CEE-A336-61498B9DB063} = {7F084745-CC31-47C1-856D-23568AF2A236}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E78737CD-8653-40F9-AC22-4A40FFC0196F}
