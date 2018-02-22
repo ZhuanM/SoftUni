@@ -7,43 +7,103 @@ using System.Threading.Tasks;
 
 public class Person
 {
-    private string name;
-    private string birthday;
+    private string firstName;
+    private string lastName;
+    private string bithdate;
     private List<Person> parents;
     private List<Person> children;
 
     public Person()
     {
-        this.Children = new List<Person>();
-        this.Parents = new List<Person>();
+        this.children = new List<Person>();
+        this.parents = new List<Person>();
     }
 
-    public string Name
+    public Person(string firstName, string lastName)
+        : this()
     {
-        get { return name; }
-        set { name = value; }
+        this.FirstName = firstName;
+        this.LastName = lastName;
     }
 
-    public string Birthday
+    public Person(string birthdate)
+        : this()
     {
-        get { return birthday; }
-        set { birthday = value; }
+        this.BirthDate = birthdate;
     }
 
-    public List<Person> Parents
+    public string BirthDate
     {
-        get { return parents; }
-        set { parents = value; }
+        get { return bithdate; }
+        set { bithdate = value; }
+    }
+
+    public string LastName
+    {
+        get { return lastName; }
+        set { lastName = value; }
+    }
+
+    public string FirstName
+    {
+        get { return firstName; }
+        set { firstName = value; }
     }
 
     public List<Person> Children
     {
-        get { return children; }
-        set { children = value; }
+        get
+        {
+            return this.children;
+        }
+
+        set
+        {
+            this.children = value;
+        }
+    }
+
+    public List<Person> Parents
+    {
+        get
+        {
+            return this.parents;
+        }
+
+        set
+        {
+            this.parents = value;
+        }
+    }
+
+    public void AddChild(Person child)
+    {
+        this.children.Add(child);
+    }
+
+    public void AddParent(Person parent)
+    {
+        this.parents.Add(parent);
     }
 
     public override string ToString()
     {
-        return $"{this.Name} {this.Birthday}";
+        StringBuilder builder = new StringBuilder();
+        builder.AppendLine($"{FirstName} {LastName} {BirthDate}");
+        builder.AppendLine("Parents:");
+
+        foreach (var parent in parents)
+        {
+            builder.AppendLine($"{parent.FirstName} {parent.LastName} {parent.BirthDate}");
+        }
+
+        builder.AppendLine("Children:");
+
+        foreach (var child in children)
+        {
+            builder.AppendLine($"{child.FirstName} {child.LastName} {child.BirthDate}");
+        }
+
+        return builder.ToString();
     }
 }

@@ -9,165 +9,140 @@ class Program
 {
     static void Main(string[] args)
     {
-        var familyTree = new List<Person>();
-        string personInput = Console.ReadLine();
-        Person mainPerson = new Person();
+        var manInfo = Console.ReadLine().Split();
+        List<Person> tree = new List<Person>();
 
-        if (IsBirthday(personInput))
+        if (manInfo.Length == 1)
         {
-            mainPerson.Birthday = personInput;
+            tree.Add(new Person(manInfo[0]));
         }
-        else
+        else if (manInfo.Length == 2)
         {
-            mainPerson.Name = personInput;
+            tree.Add(new Person(manInfo[0], manInfo[1]));
         }
-
-        familyTree.Add(mainPerson);
 
         string command;
+
         while ((command = Console.ReadLine()) != "End")
         {
-            string[] tokens = command.Split(" - ");
-            if (tokens.Length > 1)
+            var tokens = command.Split(new[] { ' ', '-' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (tokens.Length == 2)
             {
-                string firstPerson = tokens[0];
-                string secondPerson = tokens[1];
-
-                Person currentPerson;
-
-                if (IsBirthday(firstPerson))
+                if (!tree.Any(p => p.BirthDate == tokens[0]))
                 {
-                    currentPerson = familyTree.FirstOrDefault(p => p.Birthday == firstPerson);
+                    tree.Add(new Person(tokens[0]));
+                }
 
-                    if (currentPerson == null)
+                var parent = tree.First(p => p.BirthDate == tokens[0]);
+
+                if (!tree.Any(p => p.BirthDate == tokens[1]))
+                {
+                    tree.Add(new Person(tokens[1]));
+                }
+
+                var child = tree.First(p => p.BirthDate == tokens[1]);
+
+                parent.AddChild(child);
+                child.AddParent(parent);
+            }
+            else if (tokens.Length == 3)
+            {
+                if (command.Contains("-"))
+                {
+                    if (Char.IsDigit(tokens[0][0]))
                     {
-                        currentPerson = new Person();
-                        currentPerson.Birthday = firstPerson;
-                        familyTree.Add(currentPerson);
-                    }
+                        if (!tree.Any(p => p.BirthDate == tokens[0]))
+                        {
+                            tree.Add(new Person(tokens[0]));
+                        }
 
-                    SetChild(familyTree, currentPerson, secondPerson);
+                        var parent = tree.First(p => p.BirthDate == tokens[0]);
+
+                        if (!tree.Any(p => p.FirstName == tokens[1] && p.LastName == tokens[2]))
+                        {
+                            tree.Add(new Person(tokens[1], tokens[2]));
+                        }
+
+                        var child = tree.First(p => p.FirstName == tokens[1] && p.LastName == tokens[2]);
+
+                        parent.AddChild(child);
+                        child.AddParent(parent);
+                    }
+                    else if (Char.IsDigit(tokens[2][0]))
+                    {
+                        if (!tree.Any(p => p.BirthDate == tokens[2]))
+                        {
+                            tree.Add(new Person(tokens[2]));
+                        }
+
+                        var child = tree.First(p => p.BirthDate == tokens[2]);
+
+                        if (!tree.Any(p => p.FirstName == tokens[0] && p.LastName == tokens[1]))
+                        {
+                            tree.Add(new Person(tokens[0], tokens[1]));
+                        }
+
+                        var parent = tree.First(p => p.FirstName == tokens[0] && p.LastName == tokens[1]);
+
+                        parent.AddChild(child);
+                        child.AddParent(parent);
+                    }
                 }
                 else
                 {
-                    currentPerson = familyTree.FirstOrDefault(p => p.Name == firstPerson);
+                    var persons = tree.Where(p => (p.FirstName == tokens[0] && p.LastName == tokens[1]) || p.BirthDate == tokens[2]);
 
-                    if (currentPerson == null)
+                    var children = new List<Person>();
+                    var parents = new List<Person>();
+
+                    foreach (var person in persons)
                     {
-                        currentPerson = new Person();
-                        currentPerson.Name = firstPerson;
-                        familyTree.Add(currentPerson);
+                        children.AddRange(person.Children);
+                        parents.AddRange(person.Parents);
                     }
 
-                    SetChild(familyTree, currentPerson, secondPerson);
+                    foreach (var person in persons)
+                    {
+                        person.FirstName = tokens[0];
+                        person.LastName = tokens[1];
+                        person.BirthDate = tokens[2];
+                        person.Children = children;
+                        person.Parents = parents;
+                    }
                 }
             }
-            else
+            else if (tokens.Length == 4)
             {
-                tokens = tokens[0].Split();
-                string name = $"{tokens[0]} {tokens[1]}";
-                string birthday = tokens[2];
-
-                var person = familyTree.FirstOrDefault(p => p.Name == name || p.Birthday == birthday);
-                if (person == null)
+                if (!tree.Any(p => p.FirstName == tokens[0] && p.LastName == tokens[1]))
                 {
-                    person = new Person();
-                    familyTree.Add(person);
+                    tree.Add(new Person(tokens[0], tokens[1]));
                 }
-                person.Name = name;
-                person.Birthday = birthday;
 
-                int index = familyTree.IndexOf(person) + 1;
-                int count = familyTree.Count - index;
+                var parent = tree.First(p => p.FirstName == tokens[0] && p.LastName == tokens[1]);
 
-                Person[] copy = new Person[count];
-                familyTree.CopyTo(index, copy, 0, count);
-
-                Person copyPerson = copy.FirstOrDefault(p => p.Name == name || p.Birthday == birthday);
-
-                if (copyPerson != null)
+                if (!tree.Any(p => p.FirstName == tokens[2] && p.LastName == tokens[3]))
                 {
-                    familyTree.Remove(copyPerson);
-                    person.Parents.AddRange(copyPerson.Parents);
-                    person.Parents = person.Parents.Distinct().ToList();
-                    foreach (var parent in copyPerson.Parents)
-                    {
-                        int copyPersonIndex = parent.Children.IndexOf(copyPerson);
-                        if (copyPersonIndex > -1)
-                        {
-                            parent.Children[copyPersonIndex] = person;
-                        }
-                        else
-                        {
-                            parent.Children.Add(person);
-                        }
-                    }
-
-                    person.Children.AddRange(copyPerson.Children);
-                    person.Children = person.Children.Distinct().ToList();
-                    foreach (var child in copyPerson.Children)
-                    {
-                        int copyPersonIndex = child.Parents.IndexOf(copyPerson);
-                        if (copyPersonIndex > -1)
-                        {
-                            child.Parents[copyPersonIndex] = person;
-                        }
-                        else
-                        {
-                            child.Parents.Add(person);
-                        }
-                    }
+                    tree.Add(new Person(tokens[2], tokens[3]));
                 }
+
+                var child = tree.First(p => p.FirstName == tokens[2] && p.LastName == tokens[3]);
+
+                parent.AddChild(child);
+                child.AddParent(parent);
             }
         }
 
-        Console.WriteLine(mainPerson);
-        Console.WriteLine("Parents:");
-        foreach (var p in mainPerson.Parents)
+        Person target = null;
+        if (manInfo.Length == 1)
         {
-            Console.WriteLine(p);
+            target = tree.First(p => p.BirthDate == manInfo[0]);
         }
-        Console.WriteLine("Children:");
-        foreach (var c in mainPerson.Children)
+        else if (manInfo.Length == 2)
         {
-            Console.WriteLine(c);
-        }
-    }
-
-    private static void SetChild(List<Person> familyTree, Person parentPerson, string child)
-    {
-        var childPerson = new Person();
-
-        if (IsBirthday(child))
-        {
-            if (!familyTree.Any(p => p.Birthday == child))
-            {
-                childPerson.Birthday = child;
-            }
-            else
-            {
-                childPerson = familyTree.First(p => p.Birthday == child);
-            }
-        }
-        else
-        {
-            if (!familyTree.Any(p => p.Name == child))
-            {
-                childPerson.Name = child;
-            }
-            else
-            {
-                childPerson = familyTree.First(p => p.Name == child);
-            }
+            target = tree.First(p => p.FirstName == manInfo[0] && p.LastName == manInfo[1]);
         }
 
-        parentPerson.Children.Add(childPerson);
-        childPerson.Parents.Add(parentPerson);
-        familyTree.Add(childPerson);
-    }
-
-    static bool IsBirthday(string input)
-    {
-        return Char.IsDigit(input[0]);
+        Console.WriteLine(target);
     }
 }
