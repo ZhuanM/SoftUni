@@ -121,6 +121,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Online Radio Database",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Animals", "04. Inheritance\Exercises\06. Animals\06. Animals.csproj", "{7A750C36-C600-4C14-92A2-1F81D9E049EA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.1 Interfaces and Abstraction - Lab", "05.1 Interfaces and Abstraction - Lab", "{EC0DE52A-F780-49A0-8889-C1A8BA74CDE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.2 Interfaces and Abstraction - Exercises", "05.2 Interfaces and Abstraction - Exercises", "{83FD57C8-E72F-4492-9A33-4F92D1928263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Shapes", "05. Interfaces and Abstraction\Lab\01. Shapes\01. Shapes.csproj", "{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Cars", "05. Interfaces and Abstraction\Lab\02. Cars\02. Cars.csproj", "{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -331,6 +339,14 @@ Global
 		{7A750C36-C600-4C14-92A2-1F81D9E049EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A750C36-C600-4C14-92A2-1F81D9E049EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A750C36-C600-4C14-92A2-1F81D9E049EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -386,6 +402,8 @@ Global
 		{4E242106-1445-4ECF-B7FD-2893F3D8528E} = {441FCD9C-8A11-4C02-9FF6-A5ADC564E970}
 		{C8E3377D-47C4-43F0-A3EF-899DF6FC6536} = {441FCD9C-8A11-4C02-9FF6-A5ADC564E970}
 		{7A750C36-C600-4C14-92A2-1F81D9E049EA} = {441FCD9C-8A11-4C02-9FF6-A5ADC564E970}
+		{F7B43BD4-ADCD-41C6-AB13-7AF90A2CAA27} = {EC0DE52A-F780-49A0-8889-C1A8BA74CDE2}
+		{5E6E443D-B1A6-4690-9DEC-739CCFEB30D9} = {EC0DE52A-F780-49A0-8889-C1A8BA74CDE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E78737CD-8653-40F9-AC22-4A40FFC0196F}
