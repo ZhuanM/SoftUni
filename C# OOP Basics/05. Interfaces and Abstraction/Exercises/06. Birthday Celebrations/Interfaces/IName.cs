@@ -5,10 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Program
+public interface IName
 {
-    static void Main(string[] args)
-    {
-        
-    }
+    string Name { get; }
 }

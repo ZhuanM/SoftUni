@@ -42,8 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IBirthable.cs" />
+    <Compile Include="Interfaces\IName.cs" />
+    <Compile Include="Models\Citizen.cs" />
+    <Compile Include="Interfaces\IIdentifiable.cs" />
+    <Compile Include="Models\Pet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Robot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -5,10 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Program
+public interface IIdentifiable
 {
-    static void Main(string[] args)
-    {
-        
-    }
+    string Id { get; }
 }

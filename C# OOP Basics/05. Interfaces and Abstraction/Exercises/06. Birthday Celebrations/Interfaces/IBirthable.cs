@@ -5,10 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-class Program
+public interface IBirthable
 {
-    static void Main(string[] args)
-    {
-        
-    }
+    DateTime Birthdate { get; }
 }
