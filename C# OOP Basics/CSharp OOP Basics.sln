@@ -149,6 +149,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Collection Hierarchy", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Explicit Interfaces", "05. Interfaces and Abstraction\Exercises\10. Explicit Interfaces\10. Explicit Interfaces.csproj", "{2ACBB79D-B1E6-4035-AE12-F9CBE88C50ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.1 Polymorphism - Lab", "06.1 Polymorphism - Lab", "{31426B42-EA7F-47C2-9AE6-C4AE535CA060}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.2 Polymorphism - Exercises", "06.2 Polymorphism - Exercises", "{EC29BCF8-3C30-4D0E-82E1-E18F329D38CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Math Operations", "06. Polymorphism\Lab\01. Math Operations\01. Math Operations.csproj", "{889D1AEA-4514-4BF1-A0E5-5FD93323550C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Animals", "06. Polymorphism\Lab\02. Animals\02. Animals.csproj", "{9AC78DC0-AD57-4C42-A75F-169B9704A29E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Shapes", "06. Polymorphism\Lab\03. Shapes\03. Shapes.csproj", "{8B0F5674-4C72-464C-BA73-91AA440265C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -407,6 +417,18 @@ Global
 		{2ACBB79D-B1E6-4035-AE12-F9CBE88C50ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ACBB79D-B1E6-4035-AE12-F9CBE88C50ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ACBB79D-B1E6-4035-AE12-F9CBE88C50ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889D1AEA-4514-4BF1-A0E5-5FD93323550C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889D1AEA-4514-4BF1-A0E5-5FD93323550C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889D1AEA-4514-4BF1-A0E5-5FD93323550C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889D1AEA-4514-4BF1-A0E5-5FD93323550C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AC78DC0-AD57-4C42-A75F-169B9704A29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC78DC0-AD57-4C42-A75F-169B9704A29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC78DC0-AD57-4C42-A75F-169B9704A29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC78DC0-AD57-4C42-A75F-169B9704A29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0F5674-4C72-464C-BA73-91AA440265C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0F5674-4C72-464C-BA73-91AA440265C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0F5674-4C72-464C-BA73-91AA440265C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0F5674-4C72-464C-BA73-91AA440265C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -474,6 +496,9 @@ Global
 		{23521506-8D1C-45D5-8B2B-DE985CBEAAE9} = {83FD57C8-E72F-4492-9A33-4F92D1928263}
 		{24E5D8FF-AEE6-4C68-86AD-46790C4FA35B} = {83FD57C8-E72F-4492-9A33-4F92D1928263}
 		{2ACBB79D-B1E6-4035-AE12-F9CBE88C50ED} = {83FD57C8-E72F-4492-9A33-4F92D1928263}
+		{889D1AEA-4514-4BF1-A0E5-5FD93323550C} = {31426B42-EA7F-47C2-9AE6-C4AE535CA060}
+		{9AC78DC0-AD57-4C42-A75F-169B9704A29E} = {31426B42-EA7F-47C2-9AE6-C4AE535CA060}
+		{8B0F5674-4C72-464C-BA73-91AA440265C7} = {31426B42-EA7F-47C2-9AE6-C4AE535CA060}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E78737CD-8653-40F9-AC22-4A40FFC0196F}
