@@ -42,6 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IAdd.cs" />
+    <Compile Include="Interfaces\IRemove.cs" />
+    <Compile Include="Interfaces\IUsed.cs" />
+    <Compile Include="Models\AddCollection.cs" />
+    <Compile Include="Models\AddRemoveCollection.cs" />
+    <Compile Include="Models\Collection.cs" />
+    <Compile Include="Models\MyList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
