@@ -7,6 +7,7 @@
     using Forum.App.Controllers.Contracts;
     using Forum.App.UserInterface;
     using Forum.App.UserInterface.Contracts;
+    using Forum.App.Services;
 
     internal class MenuController
     {
@@ -118,7 +119,6 @@
                 case MenuState.Back:
                     this.Back();
                     break;
-				case MenuState.Error:
                 case MenuState.Rerender:
                     RenderCurrentView();
                     break;
@@ -136,37 +136,76 @@
 
         private void AddReply()
         {
-            throw new NotImplementedException();
+            this.controllerHistory.Pop();
+            this.RenderCurrentView();
         }
 
         private void RedirectToAddReply()
         {
-            throw new NotImplementedException();
+            var postDetailsController = (PostDetailsController)this.CurrentController;
+            var addReplyController = (AddReplyController)this.controllers[(int)MenuState.AddReply];
+            addReplyController.GetPostViewModel(postDetailsController.PostId);
+            this.RedirectToMenu(MenuState.AddReply);
         }
 
         private void LogOut()
         {
-            throw new NotImplementedException();
+            this.Username = String.Empty;
+            this.LogOutUser();
+            this.RenderCurrentView();
         }
 
         private void SuccessfulLogin()
         {
-            throw new NotImplementedException();
+            var loginController = (IReadUserInfoController)this.CurrentController;
+            this.Username = loginController.Username;
+            this.LogInUser();
+            RedirectToMenu(MenuState.Main);
         }
 
         private void ViewPost()
         {
-            throw new NotImplementedException();
-        }
+            var categoryController = (CategoryController)this.CurrentController;
 
-        private void OpenCategory()
-        {
-            throw new NotImplementedException();
+            int categoryId = categoryController.CategoryId;
+
+            var posts = PostService.GetPostsByCategory(categoryId).ToArray();
+
+            int postIndex = categoryController.CurrentPage * CategoryController.PAGE_OFFSET + this.currentOptionIndex;
+            var postId = posts[postIndex - 1].Id;
+
+            var postController = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
+            postController.SetPostId(postId);
+
+            this.RedirectToMenu(MenuState.ViewPost);
         }
 
         private void AddPost()
         {
-            throw new NotImplementedException();
+            var addPostController = (AddPostController)this.CurrentController;
+
+            int postId = addPostController.Post.PostId;
+
+            var postViewer = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
+            postViewer.SetPostId(postId);
+
+            addPostController.ResetPost();
+
+            this.controllerHistory.Pop();
+
+            this.RedirectToMenu(MenuState.ViewPost);
+        }
+
+        private void OpenCategory()
+        {
+            var categoriesController = (CategoriesController)this.CurrentController;
+
+            int categoryIndex = categoriesController.CurrentPage * CategoriesController.PAGE_OFFSET + this.currentOptionIndex;
+
+            var categoryCtrlr = (CategoryController)this.controllers[(int)MenuState.OpenCategory];
+            categoryCtrlr.SetCategory(categoryIndex);
+
+            this.RedirectToMenu(MenuState.OpenCategory);
         }
 
         private void RenderCurrentView()
@@ -178,17 +217,35 @@
 
         private bool RedirectToMenu(MenuState newState)
         {
-            throw new NotImplementedException();
+            if(this.State != newState)
+            {
+                this.controllerHistory.Push((int)newState);
+                this.RenderCurrentView();
+                return true;
+            }
+            return false;
         }
 
         private void LogInUser()
         {
-            throw new NotImplementedException();
+            foreach(var controller in this.controllers)
+            {
+                if(controller is IUserRestrictedController userRestrictedController)
+                {
+                    userRestrictedController.UserLogIn();
+                }
+            }
         }
 
         private void LogOutUser()
         {
-            throw new NotImplementedException();
+            foreach (var controller in this.controllers)
+            {
+                if (controller is IUserRestrictedController userRestrictedController)
+                {
+                    userRestrictedController.UserLogOut();
+                }
+            }
         }
     }
 }

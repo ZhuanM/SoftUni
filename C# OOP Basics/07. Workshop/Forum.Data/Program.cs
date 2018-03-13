@@ -6,7 +6,7 @@ namespace Forum.Data
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hello World!");
         }
     }
 }
