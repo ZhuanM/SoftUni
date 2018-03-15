@@ -165,6 +165,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Vehicles Extension", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Wild Farm", "06. Polymorphism\Exercises\03. Wild Farm\03. Wild Farm.csproj", "{913F2432-F829-4F98-9BDE-2148F968588F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation", "Exam Preparation", "{4BAC8B67-4816-42F6-9650-FFF6EBA8AA22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Exam Preparation - July 2016\Minedraft\Minedraft.csproj", "{597ACFF9-3E87-49B9-8786-69B9F7E76030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +451,10 @@ Global
 		{913F2432-F829-4F98-9BDE-2148F968588F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913F2432-F829-4F98-9BDE-2148F968588F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913F2432-F829-4F98-9BDE-2148F968588F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597ACFF9-3E87-49B9-8786-69B9F7E76030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597ACFF9-3E87-49B9-8786-69B9F7E76030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597ACFF9-3E87-49B9-8786-69B9F7E76030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597ACFF9-3E87-49B9-8786-69B9F7E76030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -520,6 +528,7 @@ Global
 		{550C6233-6573-4284-BA4D-B0594A5C5324} = {EC29BCF8-3C30-4D0E-82E1-E18F329D38CD}
 		{51D4C0F6-CF37-4839-8513-BCF6FA1B16BB} = {EC29BCF8-3C30-4D0E-82E1-E18F329D38CD}
 		{913F2432-F829-4F98-9BDE-2148F968588F} = {EC29BCF8-3C30-4D0E-82E1-E18F329D38CD}
+		{597ACFF9-3E87-49B9-8786-69B9F7E76030} = {4BAC8B67-4816-42F6-9650-FFF6EBA8AA22}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E78737CD-8653-40F9-AC22-4A40FFC0196F}
