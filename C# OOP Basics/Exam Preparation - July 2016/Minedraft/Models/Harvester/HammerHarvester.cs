@@ -6,6 +6,9 @@ using System.Text;
 public class HammerHarvester : Harvester
 {
     public HammerHarvester(string id, double oreOutput, double energyRequirement)
-        : base(id, oreOutput * 3, energyRequirement * 2)
-    { }
+        : base(id, oreOutput, energyRequirement)
+    {
+        this.EnergyRequirement *= 2;
+        this.OreOutput *= 3;
+    }
 }

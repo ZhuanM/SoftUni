@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 
 
-public class DraftManager
+public enum WorkingMode
 {
-
+    Full,
+    Half,
+    Energy
 }
