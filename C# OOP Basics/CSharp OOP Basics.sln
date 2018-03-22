@@ -165,9 +165,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Vehicles Extension", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Wild Farm", "06. Polymorphism\Exercises\03. Wild Farm\03. Wild Farm.csproj", "{913F2432-F829-4F98-9BDE-2148F968588F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation", "Exam Preparation", "{4BAC8B67-4816-42F6-9650-FFF6EBA8AA22}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exam Preparation - July 2016", "Exam Preparation - July 2016", "{4BAC8B67-4816-42F6-9650-FFF6EBA8AA22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minedraft", "Exam Preparation - July 2016\Minedraft\Minedraft.csproj", "{597ACFF9-3E87-49B9-8786-69B9F7E76030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minedraft", "Exam Preparation - July 2016\Minedraft\Minedraft.csproj", "{597ACFF9-3E87-49B9-8786-69B9F7E76030}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
