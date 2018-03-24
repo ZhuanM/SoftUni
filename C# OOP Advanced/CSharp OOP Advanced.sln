@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.1 Solid - Lab", "01.1 Solid - Lab", "{EE2A7047-FDFF-471C-9E1D-0CE5FB0390E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.2 SOLID - Exercises", "01.2 SOLID - Exercises", "{16C85097-4A1B-40FA-847C-E0AE1F831468}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Solid - Lab", "01 Solid - Lab", "{EE2A7047-FDFF-471C-9E1D-0CE5FB0390E8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Stream Progress", "01. SOLID\Lab\01. Stream Progress\01. Stream Progress.csproj", "{7AE1BF07-53B7-48B6-8544-E391C249C44E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Graphic Editor", "01. SOLID\Lab\02. Graphic Editor\02. Graphic Editor.csproj", "{CFB750C2-A402-45B0-B96E-09A779D48F97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Graphic Editor", "01. SOLID\Lab\02. Graphic Editor\02. Graphic Editor.csproj", "{CFB750C2-A402-45B0-B96E-09A779D48F97}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Detail Printer", "01. SOLID\Lab\03. Detail Printer\03. Detail Printer.csproj", "{00D3406F-A437-42E8-937C-B9CBDC7375CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Detail Printer", "01. SOLID\Lab\03. Detail Printer\03. Detail Printer.csproj", "{00D3406F-A437-42E8-937C-B9CBDC7375CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Recharge", "01. SOLID\Lab\04. Recharge\04. Recharge.csproj", "{CCE7999B-D9DC-498C-998F-8E02EA46B432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Recharge", "01. SOLID\Lab\04. Recharge\04. Recharge.csproj", "{CCE7999B-D9DC-498C-998F-8E02EA46B432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.1 Generics - Lab", "02.1 Generics - Lab", "{B0FF0215-121C-415B-A1FB-3CB9696067AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.2 Generics - Exercises", "02.2 Generics - Exercises", "{F132BCE9-CFAF-4BEC-AE5E-16008F25DFFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
