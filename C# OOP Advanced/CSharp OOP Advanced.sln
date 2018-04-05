@@ -93,7 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Code Tracker", "04. Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.1 High Quality Mistakes (Author)", "04. Reflection and Attributes\Lab\02.1 High Quality Mistakes (Author)\02.1 High Quality Mistakes (Author).csproj", "{0D951A27-8D48-4B9C-A38C-A755A8339EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Create Attribute", "04. Reflection and Attributes\Lab\05. Create Attribute\05. Create Attribute.csproj", "{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Create Attribute", "04. Reflection and Attributes\Lab\05. Create Attribute\05. Create Attribute.csproj", "{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01._Harvesting_Fields", "04. Reflection and Attributes\Exercises\01. Harvesting Fields\01._Harvesting_Fields.csproj", "{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02._Black_Box_Integer", "04. Reflection and Attributes\Exercises\02. Black Box Integer\02._Black_Box_Integer.csproj", "{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -257,6 +261,14 @@ Global
 		{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -301,6 +313,8 @@ Global
 		{088D3313-0007-4583-A76F-894B3A04BF32} = {525B6581-BA75-46BC-AFD9-66E722EEAFF1}
 		{0D951A27-8D48-4B9C-A38C-A755A8339EF4} = {525B6581-BA75-46BC-AFD9-66E722EEAFF1}
 		{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C} = {525B6581-BA75-46BC-AFD9-66E722EEAFF1}
+		{1F4278E1-16C3-462A-BDFE-E1F2302A41BF} = {A0864526-551D-41D2-B9C9-923177EC3C8B}
+		{7FF2DD37-ADD1-4465-A40E-EE90A443C14C} = {A0864526-551D-41D2-B9C9-923177EC3C8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CACF42DF-E92B-42EF-B94E-8910549C1705}
