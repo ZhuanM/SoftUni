@@ -95,9 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.1 High Quality Mistakes 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Create Attribute", "04. Reflection and Attributes\Lab\05. Create Attribute\05. Create Attribute.csproj", "{44ECBB3D-CCB1-4924-8CBA-1FCD54D59C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01._Harvesting_Fields", "04. Reflection and Attributes\Exercises\01. Harvesting Fields\01._Harvesting_Fields.csproj", "{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01._Harvesting_Fields", "04. Reflection and Attributes\Exercises\01. Harvesting Fields\01._Harvesting_Fields.csproj", "{1F4278E1-16C3-462A-BDFE-E1F2302A41BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02._Black_Box_Integer", "04. Reflection and Attributes\Exercises\02. Black Box Integer\02._Black_Box_Integer.csproj", "{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02._Black_Box_Integer", "04. Reflection and Attributes\Exercises\02. Black Box Integer\02._Black_Box_Integer.csproj", "{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
