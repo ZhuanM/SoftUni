@@ -99,6 +99,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01._Harvesting_Fields", "04
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02._Black_Box_Integer", "04. Reflection and Attributes\Exercises\02. Black Box Integer\02._Black_Box_Integer.csproj", "{7FF2DD37-ADD1-4465-A40E-EE90A443C14C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{38E9CD4E-D8FE-46E3-B356-84B4FD7EFAE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
